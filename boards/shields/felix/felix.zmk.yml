@@ -1,0 +1,16 @@
+file_format: "1"
+id: felix
+name: Felix
+type: shield
+url: 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+#  - encoder
+#  - underglow
+  - studio
+siblings:
+  - felix_left
+  - felix_right
